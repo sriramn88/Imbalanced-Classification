@@ -1,0 +1,5 @@
+# Imbalanced-Classification
+
+A common problem while analyzing classification problems is the imbalance in the number of observations belonging to each class. For example, in the Credit-Default problem, we have an imbalance in the proportion of defaulters to non-defaulters. Fewer observations in the minority class can lead machine learning algorithms to focus on the majority class observations providing inferior results for questions of interest. I will try to address the imbalance in classification by balancing data using algorithms that undersample the majority class(Near Miss, CNN, Tomek Links, Edited Nearest Neighbor), oversample the minority class( SMOTE, Random undersampling, K-Nearest Neighbor), and a combination of the undersampling and oversampling algorithms. I will also look at Cost-Sensitive algorithms that penalize prediction errors in minority class more than the prediction errors in majority class.
+
+We synthesize imbalanced classification data using Scikit-learn libraries and use cross-validation methods to showcase each algorithm's improving prediction power and accuracy on a Tree-based classifier.
